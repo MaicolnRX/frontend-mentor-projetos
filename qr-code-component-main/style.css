@@ -35,6 +35,7 @@ body {
   justify-content: center;
   align-items: center;
   margin: auto;
+  
 }
 
 picture {
@@ -49,6 +50,7 @@ img {
   margin: auto;
   width: 90%;
   max-width: 50rem;
+  
 }
 
 .info {
@@ -56,11 +58,12 @@ img {
   gap: 0.3rem;
   margin: 2rem auto 0;
 }
+  
 
 span {
   font-weight: var(--fs-bold);
   text-align: center;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
 }
 
 p {
