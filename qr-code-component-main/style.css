@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Light-gray: hsl(212, 45%, 89%);
+  --Grayish-blue: hsl(220, 15%, 55%);
+  --Dark-blue: hsl(218, 44%, 22%);
+
+  --font: 'Outfit', sans-serif;
+  --fs-regular: 400;
+  --fs-bold: 700;
+
+  --border-radius: 1rem;
+}
+
+body {
+  display: grid;
+  place-content: center;
+  place-items: center;
+  color: var(--Dark-blue);
+  background-color: var(--Light-gray);
+  font-family: var(--font);
+  min-height: 100vh;
+  margin: 1rem;
+  font-weight: var(--fs-regular);
+  font-size: 1.1rem;
+}
+
+.container {
+  background-color: var(--White);
+  border-radius: var(--border-radius);
+  display: grid;
+  max-width: 60rem;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+picture {
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+img {
+  border-radius: var(--border-radius);
+  padding: 0;
+  margin: auto;
+  width: 90%;
+  max-width: 50rem;
+}
+
+.info {
+  display: grid;
+  gap: 0.3rem;
+  margin: 2rem auto 0;
+}
+
+span {
+  font-weight: var(--fs-bold);
+  text-align: center;
+  font-size: 1.7rem;
+}
+
+p {
+  text-align: center;
+  color: var(--Grayish-blue);
+}
+
+@media (min-width: 600px) {
+  .container {
+    max-width: 30rem;
+    margin: auto 20%;
+  }
+}
