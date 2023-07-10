@@ -1,0 +1,51 @@
+:root {
+    /* Layout */
+    --mobile-width: 375px;
+    --desktop-width: 1440px;
+  
+    /* Colors */
+    --color-primary-background: hsl(233, 47%, 7%);
+    --color-card-background: hsl(244, 38%, 16%);
+    --color-accent: hsl(277, 64%, 61%);
+  
+    --color-white: hsl(0, 0%, 100%);
+    --color-white-transparent: hsla(0, 0%, 100%, 0.75);
+    --color-white-transparent-light: hsla(0, 0%, 100%, 0.6);
+  
+    /* Typography */
+    --font-size-body: 15px;
+  
+    /* Fonts */
+    --font-family-body: 'Inter', sans-serif;
+    --font-weights-body: 400, 700;
+    --font-family-heading: 'Lexend Deca', sans-serif;
+    --font-weights-heading: 400;
+  }
+  
+  body{
+    background-color: var(--color-primary-background);
+    color: var(--color-white);
+    font-size: var(--font-size-body);
+  }
+  .container{
+    background-color: var(--color-card-background);
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    height: 300px;
+
+ }
+ .statistics{
+    display: flex;
+    justify-content: center;
+    margin: 95px;
+ }
+ .stat-item{
+    text-align: center;
+    margin: auto;
+ }
